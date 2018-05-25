@@ -13,8 +13,8 @@ image: http://www.datumbox.com/img/logo.png
 x-kinRank: "9"
 x-alexaRank: ""
 tags: Datumbox
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,9 +29,9 @@ apis:
   tags: Adult Content,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/adultcontentdetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/adultcontentdetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/adultcontentdetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/adultcontentdetection-json-post-openapi.md
 - name: Datumbox Classifies the Document as commercial or nocommercial
   x-api-slug: datumbox
   description: The Commercial Detection function labels the documents as commercial
@@ -43,9 +43,9 @@ apis:
   tags: Commercial,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/commercialdetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/commercialdetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/commercialdetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/commercialdetection-json-post-openapi.md
 - name: Datumbox Estimates the similarity between 2 Documents
   x-api-slug: datumbox
   description: The Document Similarity function estimates the degree of similarity
@@ -56,9 +56,9 @@ apis:
   tags: DocumentsSimilarity
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/documentsimilarityjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/documentsimilarity-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/documentsimilarityjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/documentsimilarity-json-post-openapi.md
 - name: Datumbox Classifies the Document as educational or noeducational
   x-api-slug: datumbox
   description: The Educational Detection function classifies the documents as educational
@@ -70,9 +70,9 @@ apis:
   tags: Educational,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/educationaldetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/educationaldetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/educationaldetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/educationaldetection-json-post-openapi.md
 - name: Datumbox Gender Detection Service
   x-api-slug: datumbox
   description: The Gender Detection function identifies if a particular document is
@@ -84,9 +84,9 @@ apis:
   tags: Gender,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/genderdetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/genderdetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/genderdetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/genderdetection-json-post-openapi.md
 - name: Datumbox Extracts the Keywords of the Document
   x-api-slug: datumbox
   description: The Keyword Extraction function enables you to extract from an arbitrary
@@ -98,9 +98,9 @@ apis:
   tags: Keyword,Extraction
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/keywordextractionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/keywordextraction-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/keywordextractionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/keywordextraction-json-post-openapi.md
 - name: Datumbox Identifies the Language of the Document
   x-api-slug: datumbox
   description: The Language Detection function identifies the natural language of
@@ -112,9 +112,9 @@ apis:
   tags: Language,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/languagedetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/languagedetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/languagedetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/languagedetection-json-post-openapi.md
 - name: Datumbox Evaluates the Readability of the Document
   x-api-slug: datumbox
   description: The Readability Assessment function determines the degree of readability
@@ -126,9 +126,9 @@ apis:
   tags: Readability,Assessment
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/readabilityassessmentjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/readabilityassessment-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/readabilityassessmentjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/readabilityassessment-json-post-openapi.md
 - name: Datumbox Identifies the Sentiment of the Document
   x-api-slug: datumbox
   description: The Sentiment Analysis function classifies documents as positive, negative
@@ -140,9 +140,9 @@ apis:
   tags: Sentiment,Analysis
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/sentimentanalysisjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/sentimentanalysis-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/sentimentanalysisjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/sentimentanalysis-json-post-openapi.md
 - name: Datumbox Classifies the Document as spam or nospam
   x-api-slug: datumbox
   description: The Spam Detection function labels documents as spam or nospam by taking
@@ -153,9 +153,9 @@ apis:
   tags: Spam,Detection
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/spamdetectionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/spamdetection-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/spamdetectionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/spamdetection-json-post-openapi.md
 - name: Datumbox Classifies Document as Subjective or Objective
   x-api-slug: datumbox
   description: The Subjectivity Analysis function categorizes documents as subjective
@@ -167,9 +167,9 @@ apis:
   tags: Subjectivity,Analysis
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/subjectivityanalysisjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/subjectivityanalysis-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/subjectivityanalysisjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/subjectivityanalysis-json-post-openapi.md
 - name: Datumbox Extracts the clear text from Webpage
   x-api-slug: datumbox
   description: The Text Extraction function enables you to extract the important information
@@ -181,9 +181,9 @@ apis:
   tags: Text,Extraction
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/textextractionjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/textextraction-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/textextractionjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/textextraction-json-post-openapi.md
 - name: Datumbox Identifies the Topic of the Document
   x-api-slug: datumbox
   description: The Topic Classification function assigns documents in 12 thematic
@@ -195,9 +195,9 @@ apis:
   tags: Topic,Classification
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/topicclassificationjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/topicclassification-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/topicclassificationjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/topicclassification-json-post-openapi.md
 - name: Datumbox Identifies the Sentiment of Twitter Messages
   x-api-slug: datumbox
   description: The Twitter Sentiment Analysis function allows you to perform Sentiment
@@ -209,9 +209,9 @@ apis:
   tags: Twitter,Sentiment,Analysis
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/twittersentimentanalysisjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/twittersentimentanalysis-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/twittersentimentanalysisjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/twittersentimentanalysis-json-post-openapi.md
 - name: Datumbox
   x-api-slug: datumbox
   description: 'Datumbox offers a powerful open-source Machine Learning Framework
@@ -230,7 +230,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datumbox/master/_listings/datumbox/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/datumbox.json
 - type: x-blog
   url: http://blog.datumbox.com/

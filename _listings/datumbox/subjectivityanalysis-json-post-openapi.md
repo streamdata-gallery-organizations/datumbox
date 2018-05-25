@@ -1,10 +1,12 @@
 ---
 swagger: "2.0"
 x-collection-name: Datumbox
-x-complete: 1
+x-complete: 0
 info:
-  title: DatumBox
-  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
+  title: Datumbox Classifies Document as Subjective or Objective
+  description: The Subjectivity Analysis function categorizes documents as subjective
+    or objective based on their writing style. Texts that express personal opinions
+    are labeled as subjective and the others as objective.
   version: 1.0.0
 host: api.datumbox.com
 basePath: 1.0/
@@ -219,59 +221,17 @@ paths:
       tags:
       - Subjectivity
       - Analysis
-  /TextExtraction.json:
-    post:
-      summary: Extracts the clear text from Webpage
-      description: The Text Extraction function enables you to extract the important
-        information from a given webpage. Extracting the clear text of the documents
-        is an important step before any other analysis.
-      operationId: TextExtraction
-      x-api-path-slug: textextraction-json-post
-      parameters:
-      - in: formData
-        name: text
-        description: The HTML source of the webpage
-      responses:
-        200:
-          description: OK
-      tags:
-      - Text
-      - Extraction
-  /TopicClassification.json:
-    post:
-      summary: Identifies the Topic of the Document
-      description: The Topic Classification function assigns documents in 12 thematic
-        categories based on their keywords, idioms and jargon. It can be used to identify
-        the topic of the texts.
-      operationId: TopicClassification
-      x-api-path-slug: topicclassification-json-post
-      parameters:
-      - in: formData
-        name: text
-        description: The text that you want to analyze
-      responses:
-        200:
-          description: OK
-      tags:
-      - Topic
-      - Classification
-  /TwitterSentimentAnalysis.json:
-    post:
-      summary: Identifies the Sentiment of Twitter Messages
-      description: The Twitter Sentiment Analysis function allows you to perform Sentiment
-        Analysis on Twitter. It classifies the tweets as positive, negative or neutral
-        depending on their context.
-      operationId: TwitterSentimentAnalysis
-      x-api-path-slug: twittersentimentanalysis-json-post
-      parameters:
-      - in: formData
-        name: text
-        description: The text of the tweet that we evaluate
-      responses:
-        200:
-          description: OK
-      tags:
-      - Twitter
-      - Sentiment
-      - Analysis
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
